@@ -1,1 +1,1 @@
-https://github.com/maikyy24/resume-website/tree/main
+https://maikyy24.github.io/resume-website/
