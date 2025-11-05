@@ -1,4 +1,4 @@
-# Resume Website
+[# Resume Website
 
 This is my personal resume website built using HTML and CSS.
 
@@ -6,3 +6,4 @@ This is my personal resume website built using HTML and CSS.
 https://maikyy24.github.io/resume-website/
 ## 🧠 Description
 A clean HTML and CSS resume design inspired by a modern frontend developer layout.
+](https://maikyy24.github.io/resume-website/)
