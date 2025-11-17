@@ -3,107 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Page Title</title>
+    <title>Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- optional CSS file -->
   </head>
   <body>
-    <header>
-      <hr
-        style="border: none; height: 2px;background-color: #333 ; border-radius: 5px;"
-      />
-      <h1>Mike Rojas</h1>
-      <div class="personalinfo">
-        <h4>Junior Frontend Developer</h4>
-        <p>
-          3025 Sweetbay magnolia ct<br />Orlando , FL 32824<br />(407) 401-6913
-          <br />rjsmike@gmail.com
-        </p>
-      </div>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">■</div>
+      <h3>Mike Rojas</h3>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Articles</a>
+        <a href="#">Contact</a>
+      </nav>
     </header>
 
-    <main>
-      <div class="skills">
-        <h4>Skills</h4>
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </section>
+
+    <!-- MAIN GRID SECTION -->
+    <main class="main-grid">
+      <!-- LEFT -->
+      <section class="box">
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </section>
+
+      <!-- MIDDLE -->
+      <section class="box">
+        <h2>Work Experience</h2>
+        <h4>roadmap.sh</h4>
+        <p>Solved all the frontend projects</p>
+        <a href="#">Visit my Profile</a>
+
+        <h4>OpenSource Work</h4>
         <p>
-          HTML , CSSS , JavaScript , Figma to design , responsive Web design
-          ,Technical Writing.
+          Contributed to 50 opensource projects. Made my own projects with 200
+          GitHub Stars.
         </p>
-      </div>
+        <a href="#">Visit my GitHub Profile</a>
+      </section>
 
-      <div class="Education">
-        <h4>Education</h4>
-        <h5 style="margin: 0;padding: 0;">
-          Univesity of Central Florida , Orlando FL - Computer science
-        </h5>
-        <p style="margin: 0;padding: 0;">June 2019 - may 2024</p>
-        <p style="margin: 0;padding: 0;">
-          My time in college was challenging was fun , I din't know what do or
-          what to major in , after I completed my associate degree from my
-          college I decided I will major in computer engineering since I was
-          good with computer , but my passion was in computer science . At first
-          it was challenging and wanted to quit but then I started to love it
-          and here I am.
-        </p>
-      </div>
+      <!-- RIGHT -->
+      <section class="box">
+        <h2>Education</h2>
+        <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon.</p>
+        <p>Organized 30 sessions.</p>
 
-      <div class="experience">
-        <h4>experience</h4>
-        <div class="experienceItem">
-          <h5 style="margin: 0;padding: 0;">
-            Deloitte , Orlando FL - AI engineer
-          </h5>
-          <p style="margin: 0;padding: 0;">September 2024 - Current</p>
-          <ul>
-            <li>
-              Designed and implemented cloud-based solutions using AWS services,
-              including EC2 instances, Lambda functions, and S3 storage.
-            </li>
-            <li>
-              Integrated AWS Lambda functions with websites to enable serverless
-              backend functionality, improving scalability and cost-efficiency.
-            </li>
-            <li>
-              Collaborated with frontend developers to integrate cloud features
-              seamlessly into web applications.
-            </li>
-          </ul>
-          <p>Skills:Python, Java, C, SQL, HTML/CSS, JavaScript</p>
-        </div>
-        <div class="experienceItem">
-          <h5 style="margin: 0;padding: 0;">
-            WaterSafeAI , Orlando FL - Front end Engineer
-          </h5>
-          <p style="margin: 0;padding: 0;">August 2023 - April 2024</p>
-          <ul>
-            <li>
-              Developed a full-stack React Native application to calculate water
-              quality based on the user’s location.
-            </li>
-            <li>
-              Built frontend components and data-fetching logic to feed backend
-              AI models with geolocation inputs.
-            </li>
-            <li>
-              Integrated data fetching mechanisms to supply the AI model with
-              real-time geolocation-based inputs for accurate water quality
-              predictions.
-            </li>
-          </ul>
-          <p>Skills:React, React Native, Django REST Framework, Node.js</p>
-        </div>
-      </div>
-      <div class="socials"></div>
-
-      <a href="https://www.linkedin.com/in/mike-rojas-229051242/">LinkedIn</a>
-      <a href="https://www.linkedin.com/in/mike-rojas-229051242/">Github</a>
+        <h4>Courses I took:</h4>
+        <ul>
+          <li>Object Oriented Programming</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Web Engineering</li>
+          <li>Artificial Intelligence</li>
+          <li>Human Computer Interaction</li>
+          <li>Computer Graphics</li>
+          <li>Database Management Systems</li>
+          <li>Distributed Systems</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+    <!-- REVIEWS SECTION -->
+    <section class="reviews">
+      <h2>Reviews from my Teachers</h2>
 
-    <script src="script.js"></script>
-    <!-- optional JavaScript file -->
+      <div class="review-row">
+        <div class="review-card">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <h5>Jane Doe</h5>
+          <small>Assistant Professor</small>
+        </div>
+
+        <div class="review-card">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <h5>Jane Doe</h5>
+          <small>Assistant Professor</small>
+        </div>
+
+        <div class="review-card">
+          <p>
+            John Doe was a brilliant student; always stood out with his
+            assignments.
+          </p>
+          <h5>Jane Doe</h5>
+          <small>Assistant Professor</small>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
